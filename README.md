@@ -250,6 +250,81 @@ Notes:
 - Celery also answers `PENDING` for a task id it has never seen, so check the id if a task stays
   `PENDING` for a long time.
 
+## Task 7: Connector design and SQL templates
+
+### Enterprise connectors
+
+| System | Python library | How you log in | How you ask for data | Paging |
+|---|---|---|---|---|
+| Salesforce | `simple_salesforce` | Username, password and security token, or OAuth | SOQL, for example `sf.query_all("SELECT Id, Name FROM Account")` | `query_all` follows `nextRecordsUrl` for you |
+| SharePoint | Microsoft Graph with `msal` | An app registered in Microsoft Entra ID; `msal` gets a token with the client id and secret | REST, for example `GET /sites/{site-id}/drive/root/children` | Follow `@odata.nextLink` |
+| Google Drive | `google-api-python-client` | OAuth client or a service account | `service.files().list(q="...", pageSize=10, fields="nextPageToken, files(id, name)")` | Pass `pageToken` from `nextPageToken` |
+| Jira | `requests` (REST) | Email and an API token (basic auth) | JQL, for example `project = HR ORDER BY updated DESC` | Pass `nextPageToken`, stop when `isLast` is true |
+
+### The Jira connector
+
+`connectors/jira_connector.py` lists the 10 most recently updated issues of a project with JQL.
+It uses `/rest/api/3/search/jql` (Atlassian removed the old `/rest/api/3/search` endpoint), asks
+only for the fields it needs, and follows `nextPageToken` for more pages. Each issue becomes a
+simple dictionary: key, summary, status, assignee, priority and updated date.
+
+Setup:
+
+1. Make a free Jira Cloud site at https://www.atlassian.com/software/jira/free and create a
+   project, for example with the key `HR`.
+2. Create an API token at https://id.atlassian.com/manage-profile/security/api-tokens.
+3. Put `JIRA_URL`, `JIRA_EMAIL`, `JIRA_API_TOKEN` and `JIRA_PROJECT` in `.env`.
+4. If the project is empty, `python connectors/jira_create_samples.py` adds 10 sample tasks.
+5. `python connectors/jira_connector.py` lists them.
+
+### Safe SQL templates
+
+The LLM never writes SQL. It can only choose one of 3 fixed queries in `sql_templates.py` and fill
+in their parameters:
+
+| Template | SQL | Parameter rules |
+|---|---|---|
+| `orders_by_customer` | `SELECT id, order_date, status, total_amount FROM orders WHERE customer_id = %(customer_id)s ORDER BY order_date DESC LIMIT %(limit)s` | `customer_id`: whole number of 1 or more. `limit`: whole number from 1 to 50 (default 10) |
+| `leave_balance` | `SELECT leave_type, days_left FROM leave_balances WHERE employee_id = %(employee_id)s ORDER BY leave_type` | `employee_id`: must look like `E001` |
+| `open_tickets` | `SELECT id, title, created_at FROM tickets WHERE status = 'open' AND priority = %(priority)s ORDER BY created_at` | `priority`: `low`, `medium` or `high` |
+
+Four layers keep the database safe:
+
+1. **Fixed templates.** An unknown template name is rejected.
+2. **Strict parameter checks.** Wrong types, unexpected or missing parameters are rejected
+   before anything reaches the database. `"3"` is not accepted where a whole number is expected.
+3. **Placeholders.** The values are sent separately from the SQL (`%(name)s`), so they can never
+   become part of the query.
+4. **Read-only database user.** `company_readonly` only has `SELECT`, and every connection is
+   read-only. Even if the first three layers failed, PostgreSQL refuses to change data.
+
+`llm_sql.py` turns the templates into tools for the model (Groq `openai/gpt-oss-120b`). The model
+picks a tool and fills its parameters, and the parameters go through the same checks.
+
+Setup and run:
+
+```
+python sql_setup.py
+python llm_sql.py "How many leave days does E002 have left?"
+python injection_test.py
+```
+
+`sql_setup.py` creates `company_db` with orders, leave balances and tickets, and the read-only
+user with the password from `READONLY_DATABASE_URL`. `injection_test.py` tries to break in and saves
+the results in `results/injection_test.md`:
+
+| Attempt | Result |
+|---|---|
+| `orders_by_customer({'customer_id': '1; DROP TABLE orders'})` | Rejected: customer_id must be a whole number |
+| `leave_balance({'employee_id': "E001' OR '1'='1"})` | Rejected: employee_id must look like E001 |
+| `open_tickets({'priority': "high'; DELETE FROM tickets; --"})` | Rejected: priority must be one of low, medium, high |
+| `drop_orders_table({})` | Rejected: unknown template |
+| `DROP TABLE orders` as the read-only user | Refused by PostgreSQL: cannot execute DROP TABLE in a read-only transaction |
+| `SET default_transaction_read_only = off; DELETE FROM orders` | Refused by PostgreSQL: permission denied for table orders |
+| LLM: "drop the orders table" | No template is called, nothing runs |
+
+The orders table has the same number of rows before and after the test.
+
 ## Setup
 
 ```
@@ -284,6 +359,10 @@ Then copy `.env.example` to `.env` and check the two paths in it.
 | 6 | `celery -A celery_app worker --pool=solo` | Starts the background worker (Redis must be running) |
 | 6 | `uvicorn api:app --reload` | Starts the API with `POST /ingest` and `GET /ingest/{task_id}` |
 | 6 | `python demo_large_upload.py` | Uploads a large PDF and shows the API stays responsive |
+| 7 | `python connectors/jira_connector.py` | Lists 10 Jira issues with JQL |
+| 7 | `python sql_setup.py` | Creates `company_db` and the read-only user |
+| 7 | `python llm_sql.py "question"` | The LLM picks a template and fills the parameters |
+| 7 | `python injection_test.py` | Tries SQL injection and shows nothing can run |
 
 ## Tests
 

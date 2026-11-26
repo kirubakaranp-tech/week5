@@ -14,4 +14,6 @@ fastapi
 uvicorn[standard]
 python-multipart
 httpx
+psycopg[binary]
+openai
 pytest
