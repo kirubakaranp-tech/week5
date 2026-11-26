@@ -1,0 +1,26 @@
+{
+  "benefits_page.html": {
+    "hash": "d754bc3b6dc5019061c256c7fd717634b99b48b032cbdf77150abfe03adfac4f",
+    "file_name": "benefits_page.html",
+    "pages": 6,
+    "allowed_roles": "all",
+    "chunks": 6,
+    "last_synced_at": "2026-11-26T17:01:01"
+  },
+  "hr_policy.pdf": {
+    "hash": "ac947b02428f559705be48fa39724a6645fea4fbf0587b95427c4218d9e23092",
+    "file_name": "hr_policy.pdf",
+    "pages": 5,
+    "allowed_roles": "hr",
+    "chunks": 5,
+    "last_synced_at": "2026-11-26T17:01:01"
+  },
+  "leave_policy.docx": {
+    "hash": "1a9cf0c8c28c210b8d47ac033da65e6f4f9ba22cd51b1484b0939db056fdd30a",
+    "file_name": "leave_policy.docx",
+    "pages": 9,
+    "allowed_roles": "all",
+    "chunks": 9,
+    "last_synced_at": "2026-11-26T17:01:01"
+  }
+}
