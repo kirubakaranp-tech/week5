@@ -59,6 +59,37 @@ python ocr_pdf.py data/tamil_english.pdf eng+tam
 With `eng` only, the Tamil lines come out as random Latin characters. With `eng+tam`, both
 languages are read.
 
+## Task 3: DOCX and Excel parsing
+
+### Word: `parse_docx.py`
+
+The input is `data/hr_policy.docx`, an HR policy summary with 8 headings and 2 tables.
+
+1. Prints every paragraph with its style, for example `[Heading 1] Leave Rules`.
+2. Reads every table cell with `table.cell(r, c).text`.
+3. Turns each table into a list of dictionaries, using the first row as the keys, and saves them in
+   `output/docx_tables.json`.
+
+### Excel: `parse_excel.py`
+
+The input is `data/hr_data.xlsx` with two sheets, Employees and Leaves.
+
+1. Reads all sheets with `pandas.read_excel(path, sheet_name=None)` and prints each sheet's name
+   and shape.
+2. Turns every row into a sentence for RAG, for example `Employee Arun in Sales earns 30000` or
+   `Employee E019 took 1 day of Sick leave from 2026-09-10`, and saves them in
+   `output/excel_sentences.txt`.
+
+### Empty and merged cells
+
+| Case | What happens | How it is handled |
+|---|---|---|
+| Merged cell in Word | `table.cell(r, c)` returns the same cell for every position it covers | The text is kept for every row it covers, and merged cells are counted |
+| Merged cell in Excel | pandas only gives the value to the first cell, the others are empty (NaN) | The Department column is filled from the cell above with `ffill()` |
+| Empty cell in Word | The text is `""` | Saved as `None` |
+| Empty cell in Excel | The value is NaN, and whole numbers turn into floats like `30000.0` | NaN becomes `None`, `30000.0` becomes `30000`, and the sentence says so, for example `has no salary recorded` |
+| Empty or repeated header | Two columns would get the same key | They get names like `Column 2` or `Name 3` |
+
 ## Setup
 
 ```
@@ -84,6 +115,8 @@ Then copy `.env.example` to `.env` and check the two paths in it.
 | 2 | `python ocr_pdf.py` | Reads the mixed PDF, with OCR only for the scanned pages |
 | 2 | `python compare_ocr.py` | Compares normal extraction and OCR on page 3 |
 | Bonus | `python ocr_pdf.py data/tamil_english.pdf eng+tam` | OCR of a Tamil and English page |
+| 3 | `python parse_docx.py` | Paragraphs with styles and tables as dictionaries |
+| 3 | `python parse_excel.py` | Sheet names, shapes and one sentence per row |
 
 ## Tests
 

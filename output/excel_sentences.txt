@@ -1,0 +1,470 @@
+Employee Arun in Sales earns 30000
+Employee Suresh in Engineering earns 77500
+Employee Ganesh in Engineering earns 120000
+Employee Manoj in Engineering earns 65000
+Employee Swetha in Engineering earns 62500
+Employee Revathi in Engineering earns 55000
+Employee Karthik in Engineering earns 45000
+Employee Vijay in Engineering earns 27500
+Employee Ravi in Engineering earns 95000
+Employee Ravi in Engineering has no salary recorded
+Employee Ganesh in Engineering earns 60000
+Employee Ganesh in Engineering earns 97500
+Employee Revathi in Engineering earns 107500
+Employee Deepa in Finance earns 112500
+Employee Ganesh in Finance earns 35000
+Employee Ravi in Finance earns 25000
+Employee Lakshmi in Finance earns 97500
+Employee Deepa in Finance earns 95000
+Employee Sanjay in Finance earns 115000
+Employee Sanjay in Finance earns 117500
+Employee Kavya in Finance earns 30000
+Employee Priya in Finance earns 45000
+Employee Karthik in Finance has no salary recorded
+Employee Vijay in Finance earns 92500
+Employee Vijay in Finance earns 45000
+Employee Meena in Finance earns 42500
+Employee Swetha in Finance earns 95000
+Employee Ashok in Finance earns 27500
+Employee Meena in Finance earns 25000
+Employee Lakshmi in Finance earns 110000
+Employee Suresh in Finance earns 27500
+Employee Revathi in Finance earns 90000
+Employee Rahul in Finance earns 100000
+Employee Swetha in HR earns 52500
+Employee Kavya in HR earns 47500
+Employee Swetha in HR earns 50000
+Employee Karthik in HR earns 115000
+Employee Meena in HR earns 112500
+Employee Sanjay in HR earns 55000
+Employee Ganesh in HR earns 42500
+Employee Vijay in HR earns 25000
+Employee Meena in HR earns 47500
+Employee Nithya in HR earns 120000
+Employee Priya in HR earns 40000
+Employee Revathi in HR earns 35000
+Employee Arun in HR earns 102500
+Employee Ravi in HR earns 85000
+Employee Arun in HR earns 60000
+Employee Lakshmi in HR earns 30000
+Employee Suresh in HR earns 57500
+Employee Sanjay in HR earns 102500
+Employee Vijay in HR earns 25000
+Employee Ravi in HR earns 57500
+Employee Karthik in HR earns 72500
+Employee Arun in HR earns 57500
+Employee Priya in HR earns 52500
+Employee Swetha in HR earns 57500
+Employee Kavya in Marketing earns 102500
+Employee Karthik in Marketing earns 97500
+Employee Suresh in Marketing has no salary recorded
+Employee Arun in Marketing earns 57500
+Employee Ganesh in Marketing earns 65000
+Employee Kavya in Marketing earns 75000
+Employee Swetha in Marketing earns 55000
+Employee Revathi in Marketing earns 82500
+Employee Vijay in Marketing earns 55000
+Employee Anjali in Marketing earns 37500
+Employee Ganesh in Marketing earns 45000
+Employee Divya in Marketing earns 57500
+Employee Meena in Marketing has no salary recorded
+Employee Sanjay in Sales earns 35000
+Employee Vijay in Sales earns 62500
+Employee Manoj in Sales earns 75000
+Employee Nithya in Sales earns 85000
+Employee Rahul in Sales earns 62500
+Employee Arun in Sales earns 32500
+Employee Karthik in Sales earns 37500
+Employee Sanjay in Sales earns 65000
+Employee Priya in Sales earns 52500
+Employee Lakshmi in Sales earns 45000
+Employee Karthik in Sales earns 95000
+Employee Swetha in Sales earns 85000
+Employee Karthik in Sales earns 42500
+Employee Kavya in Sales earns 120000
+Employee Nithya in Sales earns 102500
+Employee Lakshmi in Sales earns 72500
+Employee Priya in Sales earns 67500
+Employee Suresh in Sales earns 115000
+Employee Suresh in Sales earns 62500
+Employee Divya in Sales has no salary recorded
+Employee Sanjay in Sales earns 87500
+Employee Manoj in Support earns 95000
+Employee Vijay in Support earns 52500
+Employee Priya in Support earns 120000
+Employee Vijay in Support earns 107500
+Employee Kavya in Support earns 27500
+Employee Divya in Support earns 87500
+Employee Kavya in Support earns 27500
+Employee Divya in Support earns 30000
+Employee Ravi in Support earns 70000
+Employee Anjali in Support earns 25000
+Employee Nithya in Support earns 115000
+Employee Nithya in Support earns 70000
+Employee Priya in Support earns 27500
+Employee Karthik in Support earns 100000
+Employee Arun in Support earns 120000
+Employee Manoj in Support earns 95000
+Employee Karthik in Support earns 107500
+Employee Priya in Support earns 52500
+Employee Sanjay in Support earns 50000
+Employee Ashok in Support earns 105000
+Employee Karthik in Support earns 30000
+Employee Sanjay in Support earns 95000
+Employee Karthik in Support earns 60000
+Employee Revathi in Support earns 70000
+Employee Suresh in Support earns 72500
+Employee Nithya in Support earns 55000
+Employee Divya in Support earns 105000
+Employee Ganesh in Support earns 27500
+Employee Divya in Support earns 102500
+Employee E118 took 1 day of Earned leave from 2026-07-26
+Employee E019 took 1 day of Sick leave from 2026-09-10
+Employee E107 took 2 days of Sick leave from 2026-09-01
+Employee E014 took 2 days of Casual leave from 2026-04-09
+Employee E033 took 1 day of Casual leave from 2026-05-14
+Employee E034 took 1 day of Earned leave from 2026-01-12
+Employee E054 took 1 day of Casual leave from 2026-04-27
+Employee E021 took 3 days of Sick leave from 2026-06-14
+Employee E105 took 1 day of Sick leave from 2026-09-13
+Employee E006 took 1 day of Casual leave from 2026-10-26
+Employee E053 took Earned leave from 2026-05-09 (days not recorded)
+Employee E089 took 2 days of Earned leave from 2026-09-29
+Employee E079 took 5 days of Casual leave from 2026-07-31
+Employee E051 took 2 days of Earned leave from 2026-03-23
+Employee E099 took 3 days of Earned leave from 2026-10-01
+Employee E097 took 5 days of Casual leave from 2026-04-21
+Employee E051 took 5 days of Earned leave from 2026-10-28
+Employee E094 took 1 day of Sick leave from 2026-06-27
+Employee E044 took 1 day of Earned leave from 2026-06-11
+Employee E034 took 1 day of Earned leave from 2026-04-10
+Employee E110 took 1 day of Casual leave from 2026-05-03
+Employee E087 took 2 days of Earned leave from 2026-05-13
+Employee E107 took 2 days of Casual leave from 2026-08-04
+Employee E037 took 2 days of Casual leave from 2026-04-13
+Employee E085 took 1 day of Earned leave from 2026-01-10
+Employee E010 took 5 days of Sick leave from 2026-07-03
+Employee E018 took 3 days of Sick leave from 2026-09-16
+Employee E090 took 5 days of Earned leave from 2026-04-07
+Employee E045 took 1 day of Earned leave from 2026-02-24
+Employee E030 took 2 days of Casual leave from 2026-10-10
+Employee E113 took 2 days of Earned leave from 2026-10-19
+Employee E078 took 1 day of Earned leave from 2026-04-05
+Employee E061 took 1 day of Casual leave from 2026-03-22
+Employee E115 took 1 day of Earned leave from 2026-10-24
+Employee E085 took 1 day of Earned leave from 2026-08-25
+Employee E039 took 2 days of Sick leave from 2026-07-20
+Employee E091 took 2 days of Earned leave from 2026-07-01
+Employee E035 took 1 day of Casual leave from 2026-07-11
+Employee E089 took 5 days of Earned leave from 2026-01-21
+Employee E076 took 2 days of Sick leave from 2026-07-28
+Employee E011 took 2 days of Earned leave from 2026-07-09
+Employee E044 took 1 day of Casual leave from 2026-03-26
+Employee E038 took 1 day of Earned leave from 2026-01-08
+Employee E046 took 2 days of Casual leave from 2026-07-27
+Employee E078 took 2 days of Sick leave from 2026-09-16
+Employee E055 took 1 day of Earned leave from 2026-05-13
+Employee E016 took 5 days of Sick leave from 2026-03-23
+Employee E050 took 2 days of Casual leave from 2026-06-18
+Employee E070 took 5 days of Earned leave from 2026-08-10
+Employee E098 took 3 days of Earned leave from 2026-04-16
+Employee E075 took 1 day of Sick leave from 2026-06-24
+Employee E115 took 1 day of Casual leave from 2026-01-06
+Employee E113 took 1 day of Sick leave from 2026-01-26
+Employee E072 took 1 day of Earned leave from 2026-06-03
+Employee E071 took 2 days of Earned leave from 2026-07-27
+Employee E101 took 2 days of Casual leave from 2026-02-09
+Employee E073 took 3 days of Earned leave from 2026-04-20
+Employee E030 took 2 days of Earned leave from 2026-07-22
+Employee E018 took 3 days of Earned leave from 2026-02-25
+Employee E108 took 2 days of Casual leave from 2026-08-16
+Employee E047 took 3 days of Sick leave from 2026-04-11
+Employee E022 took Sick leave from 2026-02-20 (days not recorded)
+Employee E007 took 2 days of Casual leave from 2026-06-24
+Employee E091 took 2 days of Casual leave from 2026-08-01
+Employee E093 took 3 days of Sick leave from 2026-02-21
+Employee E055 took 2 days of Casual leave from 2026-02-09
+Employee E072 took 2 days of Earned leave from 2026-01-24
+Employee E081 took 1 day of Sick leave from 2026-08-30
+Employee E112 took 2 days of Sick leave from 2026-01-30
+Employee E102 took 2 days of Sick leave from 2026-05-26
+Employee E035 took Casual leave from 2026-06-09 (days not recorded)
+Employee E021 took 3 days of Sick leave from 2026-09-05
+Employee E009 took 3 days of Casual leave from 2026-05-26
+Employee E016 took 1 day of Earned leave from 2026-06-01
+Employee E032 took 2 days of Earned leave from 2026-05-06
+Employee E063 took 2 days of Casual leave from 2026-03-22
+Employee E081 took 1 day of Casual leave from 2026-01-28
+Employee E082 took 2 days of Casual leave from 2026-01-26
+Employee E029 took 5 days of Earned leave from 2026-02-07
+Employee E106 took 1 day of Earned leave from 2026-09-02
+Employee E041 took 1 day of Casual leave from 2026-09-25
+Employee E116 took 1 day of Earned leave from 2026-08-28
+Employee E044 took 1 day of Casual leave from 2026-02-28
+Employee E102 took 1 day of Earned leave from 2026-08-22
+Employee E099 took 1 day of Casual leave from 2026-01-27
+Employee E054 took 1 day of Sick leave from 2026-03-05
+Employee E050 took 2 days of Casual leave from 2026-08-02
+Employee E004 took 3 days of Sick leave from 2026-10-26
+Employee E066 took 5 days of Earned leave from 2026-09-29
+Employee E026 took 1 day of Sick leave from 2026-03-07
+Employee E018 took 1 day of Casual leave from 2026-09-15
+Employee E053 took 1 day of Sick leave from 2026-07-03
+Employee E051 took 3 days of Casual leave from 2026-10-17
+Employee E078 took 5 days of Earned leave from 2026-05-23
+Employee E078 took 2 days of Casual leave from 2026-05-08
+Employee E117 took 3 days of Earned leave from 2026-04-11
+Employee E059 took 1 day of Sick leave from 2026-02-01
+Employee E004 took 1 day of Casual leave from 2026-08-06
+Employee E040 took 1 day of Casual leave from 2026-02-22
+Employee E007 took 5 days of Earned leave from 2026-02-07
+Employee E116 took 2 days of Earned leave from 2026-03-24
+Employee E059 took 2 days of Sick leave from 2026-07-11
+Employee E062 took 1 day of Sick leave from 2026-04-18
+Employee E073 took 5 days of Earned leave from 2026-03-10
+Employee E046 took 2 days of Casual leave from 2026-03-03
+Employee E068 took 2 days of Sick leave from 2026-04-20
+Employee E016 took 2 days of Earned leave from 2026-05-13
+Employee E070 took 3 days of Casual leave from 2026-03-20
+Employee E039 took 2 days of Casual leave from 2026-05-29
+Employee E064 took 2 days of Casual leave from 2026-04-05
+Employee E070 took 1 day of Sick leave from 2026-10-25
+Employee E109 took 1 day of Casual leave from 2026-06-15
+Employee E077 took 2 days of Casual leave from 2026-08-10
+Employee E058 took 1 day of Earned leave from 2026-08-26
+Employee E075 took 1 day of Casual leave from 2026-06-08
+Employee E044 took 3 days of Sick leave from 2026-02-11
+Employee E073 took 1 day of Earned leave from 2026-06-17
+Employee E092 took 3 days of Casual leave from 2026-07-03
+Employee E039 took 1 day of Sick leave from 2026-07-07
+Employee E119 took 2 days of Casual leave from 2026-08-14
+Employee E117 took 2 days of Casual leave from 2026-05-23
+Employee E046 took 2 days of Sick leave from 2026-06-06
+Employee E092 took 3 days of Casual leave from 2026-07-24
+Employee E105 took Sick leave from 2026-02-13 (days not recorded)
+Employee E033 took 3 days of Sick leave from 2026-07-06
+Employee E024 took 5 days of Earned leave from 2026-07-18
+Employee E011 took 1 day of Sick leave from 2026-10-16
+Employee E112 took 5 days of Casual leave from 2026-03-21
+Employee E010 took 1 day of Earned leave from 2026-04-01
+Employee E030 took 5 days of Sick leave from 2026-08-21
+Employee E055 took 1 day of Casual leave from 2026-01-12
+Employee E049 took 1 day of Casual leave from 2026-10-06
+Employee E026 took 3 days of Sick leave from 2026-01-12
+Employee E074 took 2 days of Sick leave from 2026-10-25
+Employee E036 took 1 day of Sick leave from 2026-10-07
+Employee E077 took 3 days of Earned leave from 2026-05-21
+Employee E113 took 1 day of Earned leave from 2026-06-10
+Employee E063 took 1 day of Casual leave from 2026-03-15
+Employee E057 took 1 day of Casual leave from 2026-08-05
+Employee E092 took 5 days of Casual leave from 2026-09-08
+Employee E043 took 2 days of Sick leave from 2026-08-24
+Employee E043 took 3 days of Earned leave from 2026-06-20
+Employee E073 took 2 days of Casual leave from 2026-09-07
+Employee E075 took 2 days of Casual leave from 2026-01-24
+Employee E048 took 5 days of Sick leave from 2026-01-02
+Employee E067 took 2 days of Casual leave from 2026-02-15
+Employee E063 took 2 days of Sick leave from 2026-01-13
+Employee E119 took 5 days of Earned leave from 2026-01-06
+Employee E102 took 1 day of Earned leave from 2026-08-04
+Employee E011 took 3 days of Sick leave from 2026-03-25
+Employee E085 took 1 day of Earned leave from 2026-03-27
+Employee E081 took 2 days of Sick leave from 2026-08-06
+Employee E007 took 2 days of Sick leave from 2026-01-31
+Employee E006 took 1 day of Casual leave from 2026-02-28
+Employee E054 took 1 day of Sick leave from 2026-04-02
+Employee E031 took 2 days of Earned leave from 2026-10-27
+Employee E029 took 1 day of Earned leave from 2026-02-25
+Employee E062 took 2 days of Earned leave from 2026-04-22
+Employee E035 took 2 days of Casual leave from 2026-08-30
+Employee E092 took 1 day of Sick leave from 2026-08-15
+Employee E098 took 5 days of Sick leave from 2026-03-30
+Employee E059 took 5 days of Casual leave from 2026-10-08
+Employee E045 took 2 days of Sick leave from 2026-05-14
+Employee E117 took 3 days of Casual leave from 2026-06-25
+Employee E032 took Earned leave from 2026-02-17 (days not recorded)
+Employee E098 took 1 day of Earned leave from 2026-01-26
+Employee E046 took 2 days of Casual leave from 2026-07-17
+Employee E034 took 5 days of Earned leave from 2026-05-21
+Employee E071 took 1 day of Sick leave from 2026-05-02
+Employee E113 took 2 days of Earned leave from 2026-07-10
+Employee E002 took 2 days of Earned leave from 2026-08-04
+Employee E102 took 5 days of Sick leave from 2026-03-22
+Employee E052 took 5 days of Casual leave from 2026-05-13
+Employee E037 took 2 days of Casual leave from 2026-05-17
+Employee E047 took 2 days of Earned leave from 2026-03-19
+Employee E001 took 5 days of Earned leave from 2026-04-15
+Employee E064 took 1 day of Sick leave from 2026-03-07
+Employee E005 took 1 day of Sick leave from 2026-09-28
+Employee E088 took 1 day of Casual leave from 2026-08-28
+Employee E025 took 5 days of Casual leave from 2026-10-06
+Employee E027 took 5 days of Earned leave from 2026-01-10
+Employee E102 took 3 days of Earned leave from 2026-04-09
+Employee E036 took 1 day of Earned leave from 2026-08-14
+Employee E112 took 2 days of Sick leave from 2026-07-31
+Employee E056 took Sick leave from 2026-06-09 (days not recorded)
+Employee E098 took 2 days of Sick leave from 2026-02-08
+Employee E015 took 1 day of Earned leave from 2026-02-04
+Employee E085 took 1 day of Casual leave from 2026-03-13
+Employee E082 took 3 days of Earned leave from 2026-08-25
+Employee E069 took 1 day of Sick leave from 2026-08-16
+Employee E002 took 1 day of Sick leave from 2026-09-01
+Employee E010 took 2 days of Earned leave from 2026-02-28
+Employee E095 took 2 days of Earned leave from 2026-04-16
+Employee E026 took 2 days of Casual leave from 2026-07-12
+Employee E027 took 5 days of Sick leave from 2026-06-22
+Employee E009 took 1 day of Earned leave from 2026-02-14
+Employee E080 took 3 days of Earned leave from 2026-07-12
+Employee E042 took 1 day of Casual leave from 2026-06-08
+Employee E019 took 2 days of Sick leave from 2026-06-19
+Employee E087 took 1 day of Casual leave from 2026-02-22
+Employee E115 took 3 days of Casual leave from 2026-03-09
+Employee E119 took 1 day of Earned leave from 2026-04-02
+Employee E098 took 5 days of Sick leave from 2026-01-19
+Employee E025 took 1 day of Earned leave from 2026-02-16
+Employee E040 took 1 day of Sick leave from 2026-03-22
+Employee E100 took 1 day of Sick leave from 2026-02-07
+Employee E118 took 1 day of Casual leave from 2026-09-19
+Employee E083 took 5 days of Casual leave from 2026-03-17
+Employee E081 took 1 day of Sick leave from 2026-09-05
+Employee E053 took 3 days of Sick leave from 2026-01-08
+Employee E051 took 5 days of Earned leave from 2026-06-12
+Employee E071 took 1 day of Sick leave from 2026-09-29
+Employee E042 took 1 day of Sick leave from 2026-04-07
+Employee E069 took 1 day of Casual leave from 2026-08-14
+Employee E079 took 2 days of Sick leave from 2026-04-15
+Employee E036 took 5 days of Earned leave from 2026-05-31
+Employee E051 took 1 day of Casual leave from 2026-03-23
+Employee E113 took 2 days of Earned leave from 2026-06-02
+Employee E062 took 2 days of Earned leave from 2026-09-14
+Employee E020 took 2 days of Casual leave from 2026-04-12
+Employee E119 took 2 days of Earned leave from 2026-04-11
+Employee E059 took 5 days of Earned leave from 2026-04-12
+Employee E050 took 2 days of Casual leave from 2026-05-06
+Employee E102 took 1 day of Earned leave from 2026-06-20
+Employee E118 took 1 day of Sick leave from 2026-07-04
+Employee E110 took 2 days of Casual leave from 2026-03-05
+Employee E050 took 2 days of Casual leave from 2026-05-03
+Employee E112 took 1 day of Casual leave from 2026-10-15
+Employee E117 took 1 day of Casual leave from 2026-05-16
+Employee E111 took 2 days of Earned leave from 2026-06-21
+Employee E023 took 1 day of Casual leave from 2026-01-02
+Employee E111 took 1 day of Casual leave from 2026-07-06
+Employee E066 took 1 day of Casual leave from 2026-03-26
+Employee E008 took 2 days of Earned leave from 2026-02-09
+Employee E098 took 5 days of Casual leave from 2026-04-03
+Employee E050 took 5 days of Casual leave from 2026-06-07
+Employee E093 took 2 days of Casual leave from 2026-07-15
+Employee E063 took 1 day of Earned leave from 2026-01-09
+Employee E100 took 1 day of Earned leave from 2026-08-28
+Employee E097 took 1 day of Casual leave from 2026-07-17
+Employee E098 took 1 day of Casual leave from 2026-03-30
+Employee E037 took 1 day of Casual leave from 2026-05-15
+Employee E120 took 1 day of Casual leave from 2026-06-20
+Employee E036 took 3 days of Casual leave from 2026-01-20
+Employee E036 took 2 days of Sick leave from 2026-03-16
+Employee E035 took 2 days of Sick leave from 2026-02-22
+Employee E100 took 5 days of Sick leave from 2026-10-17
+Employee E017 took 2 days of Sick leave from 2026-05-25
+Employee E068 took 5 days of Sick leave from 2026-07-29
+Employee E023 took 1 day of Casual leave from 2026-10-17
+Employee E042 took 2 days of Sick leave from 2026-09-26
+Employee E102 took 1 day of Earned leave from 2026-01-13
+Employee E026 took 3 days of Sick leave from 2026-08-10
+Employee E035 took 5 days of Sick leave from 2026-06-14
+Employee E109 took 1 day of Earned leave from 2026-02-05
+Employee E093 took 1 day of Casual leave from 2026-08-17
+Employee E104 took 1 day of Sick leave from 2026-07-23
+Employee E088 took 2 days of Earned leave from 2026-02-23
+Employee E112 took 3 days of Sick leave from 2026-06-06
+Employee E103 took 3 days of Casual leave from 2026-02-05
+Employee E070 took 2 days of Casual leave from 2026-10-07
+Employee E055 took 1 day of Casual leave from 2026-03-26
+Employee E016 took 2 days of Earned leave from 2026-08-04
+Employee E113 took 1 day of Casual leave from 2026-02-06
+Employee E038 took 1 day of Casual leave from 2026-03-08
+Employee E020 took 1 day of Sick leave from 2026-08-21
+Employee E105 took 1 day of Sick leave from 2026-06-03
+Employee E061 took 2 days of Sick leave from 2026-02-02
+Employee E057 took 2 days of Earned leave from 2026-09-29
+Employee E062 took 1 day of Earned leave from 2026-10-27
+Employee E028 took 2 days of Sick leave from 2026-01-16
+Employee E028 took 2 days of Earned leave from 2026-06-16
+Employee E120 took 1 day of Earned leave from 2026-08-30
+Employee E026 took 1 day of Sick leave from 2026-01-31
+Employee E068 took 2 days of Earned leave from 2026-07-01
+Employee E061 took 1 day of Casual leave from 2026-10-14
+Employee E059 took 1 day of Earned leave from 2026-05-01
+Employee E069 took 1 day of Casual leave from 2026-02-24
+Employee E057 took 1 day of Sick leave from 2026-06-10
+Employee E002 took 1 day of Casual leave from 2026-03-11
+Employee E034 took 2 days of Earned leave from 2026-08-16
+Employee E060 took 5 days of Sick leave from 2026-04-25
+Employee E023 took 1 day of Earned leave from 2026-04-11
+Employee E003 took 2 days of Casual leave from 2026-05-01
+Employee E026 took 1 day of Casual leave from 2026-05-20
+Employee E097 took 2 days of Casual leave from 2026-03-01
+Employee E094 took 1 day of Casual leave from 2026-06-04
+Employee E092 took 1 day of Casual leave from 2026-05-22
+Employee E072 took 2 days of Earned leave from 2026-02-16
+Employee E114 took 1 day of Casual leave from 2026-09-28
+Employee E116 took 1 day of Casual leave from 2026-01-24
+Employee E025 took 2 days of Sick leave from 2026-05-26
+Employee E106 took 1 day of Earned leave from 2026-10-19
+Employee E021 took 1 day of Earned leave from 2026-04-08
+Employee E007 took 1 day of Earned leave from 2026-10-08
+Employee E038 took 1 day of Casual leave from 2026-03-19
+Employee E015 took 2 days of Earned leave from 2026-10-27
+Employee E118 took 1 day of Earned leave from 2026-09-13
+Employee E074 took 5 days of Casual leave from 2026-10-12
+Employee E116 took 1 day of Casual leave from 2026-07-04
+Employee E045 took 2 days of Sick leave from 2026-01-17
+Employee E090 took 3 days of Casual leave from 2026-09-24
+Employee E061 took 1 day of Casual leave from 2026-03-26
+Employee E107 took 3 days of Sick leave from 2026-05-01
+Employee E008 took 5 days of Casual leave from 2026-05-12
+Employee E038 took 1 day of Sick leave from 2026-05-01
+Employee E112 took 5 days of Casual leave from 2026-04-24
+Employee E044 took 1 day of Earned leave from 2026-09-13
+Employee E080 took 2 days of Sick leave from 2026-01-27
+Employee E104 took 1 day of Earned leave from 2026-04-03
+Employee E044 took 2 days of Sick leave from 2026-01-10
+Employee E055 took 2 days of Sick leave from 2026-08-11
+Employee E003 took 5 days of Earned leave from 2026-05-15
+Employee E075 took 1 day of Casual leave from 2026-02-28
+Employee E063 took 2 days of Casual leave from 2026-10-06
+Employee E103 took 1 day of Sick leave from 2026-03-16
+Employee E106 took 3 days of Sick leave from 2026-01-22
+Employee E057 took 5 days of Sick leave from 2026-09-27
+Employee E030 took 1 day of Casual leave from 2026-09-13
+Employee E064 took 1 day of Sick leave from 2026-09-19
+Employee E108 took 1 day of Sick leave from 2026-05-08
+Employee E088 took 1 day of Sick leave from 2026-08-21
+Employee E100 took 1 day of Casual leave from 2026-08-28
+Employee E086 took 1 day of Sick leave from 2026-01-22
+Employee E017 took 1 day of Casual leave from 2026-03-10
+Employee E013 took 3 days of Earned leave from 2026-09-25
+Employee E001 took 2 days of Casual leave from 2026-05-04
+Employee E052 took 2 days of Casual leave from 2026-02-16
+Employee E027 took 2 days of Earned leave from 2026-08-30
+Employee E040 took 1 day of Sick leave from 2026-04-28
+Employee E023 took 5 days of Earned leave from 2026-10-10
+Employee E102 took 1 day of Earned leave from 2026-08-25
+Employee E066 took 1 day of Casual leave from 2026-06-08
+Employee E086 took 1 day of Sick leave from 2026-01-21
+Employee E024 took 3 days of Sick leave from 2026-01-30
+Employee E010 took 2 days of Sick leave from 2026-04-01
+Employee E120 took 2 days of Sick leave from 2026-04-20
+Employee E036 took 1 day of Sick leave from 2026-01-26
+Employee E048 took 1 day of Casual leave from 2026-05-07
+Employee E046 took 2 days of Earned leave from 2026-03-25
+Employee E098 took 2 days of Sick leave from 2026-04-20
+Employee E030 took 2 days of Sick leave from 2026-06-07
+Employee E058 took 5 days of Sick leave from 2026-04-03
+Employee E083 took 2 days of Sick leave from 2026-10-04
+Employee E075 took 3 days of Sick leave from 2026-01-25
+Employee E066 took 2 days of Earned leave from 2026-05-21
+Employee E096 took 3 days of Sick leave from 2026-04-04
+Employee E091 took 2 days of Casual leave from 2026-07-21
+Employee E002 took 1 day of Earned leave from 2026-04-22
+Employee E066 took 1 day of Casual leave from 2026-01-30

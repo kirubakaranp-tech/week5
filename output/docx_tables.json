@@ -1,0 +1,55 @@
+[
+  [
+    {
+      "Leave type": "Earned leave",
+      "Days per year": "18",
+      "Carry forward": "Up to 30 days",
+      "Notes": "Apply 7 days in advance"
+    },
+    {
+      "Leave type": "Sick leave",
+      "Days per year": "10",
+      "Carry forward": "Not allowed",
+      "Notes": null
+    },
+    {
+      "Leave type": "Casual leave",
+      "Days per year": "6",
+      "Carry forward": "Not allowed",
+      "Notes": null
+    },
+    {
+      "Leave type": "Maternity leave",
+      "Days per year": "182",
+      "Carry forward": "Not allowed",
+      "Notes": "26 weeks"
+    }
+  ],
+  [
+    {
+      "Date": "26 Jan 2026",
+      "Holiday": "Republic Day",
+      "Offices": "All offices"
+    },
+    {
+      "Date": "14 Jan 2026",
+      "Holiday": "Pongal",
+      "Offices": "Chennai"
+    },
+    {
+      "Date": "15 Aug 2026",
+      "Holiday": "Independence Day",
+      "Offices": "All offices"
+    },
+    {
+      "Date": "2 Oct 2026",
+      "Holiday": "Gandhi Jayanti",
+      "Offices": "All offices"
+    },
+    {
+      "Date": null,
+      "Holiday": "Diwali",
+      "Offices": "All offices"
+    }
+  ]
+]

@@ -2,4 +2,7 @@ pymupdf
 pdf2image
 pytesseract
 python-dotenv
+python-docx
+openpyxl
+pandas
 pytest
