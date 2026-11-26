@@ -1,0 +1,8 @@
+{
+  "source": "employee_policy.pdf",
+  "page": 9,
+  "text": "Northwind Software - Employee Policy Handbook v4.1\nPage 9\nIT and Data Security\nCompany laptops, accounts and data must be used safely and only for work.\nPasswords\nPasswords must be at least 14 characters long and must not be reused from other websites.\nMulti-factor authentication is required for email, the HR portal and the code repositories.\nLaptops\nLock your laptop whenever you leave it. Do not install software that IT has not approved.\nReport a lost or stolen laptop to the IT helpdesk within 2 hours.\nCustomer data\nCustomer data may only be stored in approved company systems. Never copy customer data\nto personal devices, personal email or USB drives.\nSecurity incidents\nIf you think you clicked a phishing link or see unusual activity, contact the IT helpdesk at once.\nReporting quickly is more important than being sure.\n",
+  "headings": [
+    "IT and Data Security"
+  ]
+}
