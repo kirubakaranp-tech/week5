@@ -1,2 +1,5 @@
 pymupdf
+pdf2image
+pytesseract
+python-dotenv
 pytest
