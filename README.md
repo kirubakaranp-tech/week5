@@ -131,6 +131,58 @@ ValueError: Unsupported file type '.txt' for notes.txt. Supported types: pdf, do
 `python run_loader.py` loads one file of each type and saves the table
 `File type | Items extracted | Time` in `results/loader_results.md`.
 
+## Task 5: Hashing and metadata
+
+`ingest.py` indexes every file in `docs_to_ingest/`, but only the files that are new or changed.
+
+1. `file_hash(path)` reads the file's bytes and returns `hashlib.sha256(bytes).hexdigest()`.
+2. `index_registry.json` keeps one entry per file:
+
+   ```json
+   "leave.docx": {
+     "hash": "0833c0ab...",
+     "file_name": "leave.docx",
+     "pages": 10,
+     "created": "2026-11-26",
+     "last_synced_at": "2026-11-26T10:24:52",
+     "chunks": 10
+   }
+   ```
+
+   `pages` is the number of pages for a PDF, sections for Word and HTML, and rows for Excel.
+   `last_synced_at` is updated on every run, also when the file is skipped.
+3. `needs_reindex(path)` compares the file's hash with the one in the registry and returns `False`
+   when it is the same.
+4. A new or changed file is loaded with `load_document()` (Task 4), split into chunks of about
+   500 characters, and its old chunks in `chunk_store.json` are replaced.
+5. Every chunk gets metadata:
+
+   ```json
+   {"source": "policy.pdf", "page": 3, "section": "Leave Policy", "created": "2026-11-26"}
+   ```
+
+   For a PDF the section is the last heading on or before that page (found by font size, Task 1),
+   so page 4 still belongs to "Leave Policy". Word and HTML use the heading of the section, and
+   Excel uses the sheet name.
+
+### Try it
+
+```
+python ingest.py
+python ingest.py
+python demo_change.py
+python ingest.py
+```
+
+The first run indexes both files, the second skips both, `demo_change.py` adds a section to
+`leave.docx` and creates `new.xlsx`, and the last run shows:
+
+```
+leave.docx changed -> re-indexed (10 chunks)
+new.xlsx new -> indexed (30 chunks)
+policy.pdf unchanged -> skipped
+```
+
 ## Setup
 
 ```
@@ -160,6 +212,8 @@ Then copy `.env.example` to `.env` and check the two paths in it.
 | 3 | `python parse_excel.py` | Sheet names, shapes and one sentence per row |
 | 4 | `python parse_html.py <url>` | Downloads a web page and removes nav, scripts and footer |
 | 4 | `python run_loader.py` | Loads one file of each type and makes the results table |
+| 5 | `python ingest.py` | Indexes new and changed files, skips unchanged ones |
+| 5 | `python demo_change.py` | Changes `leave.docx` and adds `new.xlsx` for the demo |
 
 ## Tests
 

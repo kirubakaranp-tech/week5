@@ -1,0 +1,26 @@
+{
+  "leave.docx": {
+    "hash": "a3a9d6f05f97ba22f7c2b682c887337eaa6f0dc83eba05cf6c0c3e6a5cc2f80e",
+    "file_name": "leave.docx",
+    "pages": 10,
+    "created": "2026-11-26",
+    "last_synced_at": "2026-11-26T16:00:32",
+    "chunks": 10
+  },
+  "policy.pdf": {
+    "hash": "8c7086ba0e50c70539c79713455d33f7af70e65726221b419f09d05e4844e561",
+    "file_name": "policy.pdf",
+    "pages": 12,
+    "created": "2026-11-26",
+    "last_synced_at": "2026-11-26T16:00:32",
+    "chunks": 26
+  },
+  "new.xlsx": {
+    "hash": "187b12d407d06b1ee33f98f32f5617f0e2a53c96d197f9d7bfb247c31f5a2d29",
+    "file_name": "new.xlsx",
+    "pages": 30,
+    "created": "2026-11-26",
+    "last_synced_at": "2026-11-26T16:00:32",
+    "chunks": 30
+  }
+}

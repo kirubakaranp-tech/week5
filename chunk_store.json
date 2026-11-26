@@ -1,0 +1,668 @@
+{
+  "leave.docx": [
+    {
+      "id": "leave.docx-0",
+      "text": "Leave Policy 2026 This document explains every type of leave at Northwind Software, who can take it and how to apply.",
+      "metadata": {
+        "source": "leave.docx",
+        "page": null,
+        "section": "Start",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "leave.docx-1",
+      "text": "Earned Leave Full-time employees get 18 days of earned leave every calendar year. Leave is added at the start of the year, or on a pro-rata basis for people who join during the year. Up to 30 days of unused earned leave can be carried forward to the next year. Earned leave above 30 days is paid out at the end of the year at the basic salary rate.",
+      "metadata": {
+        "source": "leave.docx",
+        "page": null,
+        "section": "Earned Leave",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "leave.docx-2",
+      "text": "Sick Leave Employees get 10 days of sick leave every year. Sick leave cannot be carried forward. Tell your manager before 10 am on the first day of sickness. For more than 2 days of sick leave in a row, upload a medical certificate in the HR portal within 3 days of returning to work.",
+      "metadata": {
+        "source": "leave.docx",
+        "page": null,
+        "section": "Sick Leave",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "leave.docx-3",
+      "text": "Casual Leave Employees get 6 days of casual leave every year for personal work. Casual leave can be taken for half a day or a full day, and at most 3 days in a row.",
+      "metadata": {
+        "source": "leave.docx",
+        "page": null,
+        "section": "Casual Leave",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "leave.docx-4",
+      "text": "Maternity Leave Women employees get 26 weeks of paid maternity leave for the first two children and 12 weeks for any further child. Up to 8 weeks can be taken before the expected date of delivery.",
+      "metadata": {
+        "source": "leave.docx",
+        "page": null,
+        "section": "Maternity Leave",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "leave.docx-5",
+      "text": "Paternity Leave Fathers get 10 working days of paid paternity leave, to be taken within 3 months of the birth or adoption of a child.",
+      "metadata": {
+        "source": "leave.docx",
+        "page": null,
+        "section": "Paternity Leave",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "leave.docx-6",
+      "text": "Bereavement Leave Employees get 5 days of paid leave on the death of a close family member: a spouse, child, parent, brother or sister.",
+      "metadata": {
+        "source": "leave.docx",
+        "page": null,
+        "section": "Bereavement Leave",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "leave.docx-7",
+      "text": "Applying for Leave Apply in the HR portal at least 7 days in advance for earned leave and 1 day in advance for casual leave. Your manager approves or rejects the request within 2 working days. If your manager is away, the request goes to their manager.",
+      "metadata": {
+        "source": "leave.docx",
+        "page": null,
+        "section": "Applying for Leave",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "leave.docx-8",
+      "text": "Leave Without Pay When all paid leave is used, an employee can ask for up to 30 days of unpaid leave in a year. Unpaid leave needs approval from the manager and the People team.",
+      "metadata": {
+        "source": "leave.docx",
+        "page": null,
+        "section": "Leave Without Pay",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "leave.docx-9",
+      "text": "Leave During Notice Period Employees who are serving their notice period can take earned leave only with approval from their manager. Leave taken during the notice period does not extend the last working day.",
+      "metadata": {
+        "source": "leave.docx",
+        "page": null,
+        "section": "Leave During Notice Period",
+        "created": "2026-11-26"
+      }
+    }
+  ],
+  "policy.pdf": [
+    {
+      "id": "policy.pdf-0",
+      "text": "Northwind Software - Employee Policy Handbook v4.1 Page 1 Employee Policy Handbook Northwind Software Private Limited Version 4.1, effective from 1 April 2026 About this handbook This handbook explains the main policies that apply to all employees of Northwind Software Private Limited in India. It covers leave, attendance, working hours, remote work, conduct, IT security, travel, performance reviews and leaving the company. If a policy in this handbook is different from your employment contract,",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 1,
+        "section": "Employee Policy Handbook",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-1",
+      "text": "is different from your employment contract, the contract applies. Questions about any policy can be sent to the People team at people@northwind.example. Who this handbook applies to The handbook applies to all full-time and part-time employees. Interns and contractors follow the rules on conduct and IT security, but not the rules on leave and benefits, unless their contract says otherwise. Changes to policies The People team reviews the handbook every year in March. Employees are told about any",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 1,
+        "section": "Employee Policy Handbook",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-2",
+      "text": "every year in March. Employees are told about any change by email at least 30 days before it takes effect.",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 1,
+        "section": "Employee Policy Handbook",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-3",
+      "text": "Northwind Software - Employee Policy Handbook v4.1 Page 2 Introduction Northwind Software builds project and payroll software for small businesses. We have offices in Bengaluru and Chennai and about 420 employees. Our values We expect everyone to be honest, to respect each other and to take ownership of their work. These values guide every policy in this handbook. Probation New employees have a probation period of 6 months. During probation, the notice period is 15 days for both sides. Your",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 2,
+        "section": "Introduction",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-4",
+      "text": "the notice period is 15 days for both sides. Your manager meets you after 3 months to review how things are going. Working days The working week is Monday to Friday. Saturday and Sunday are weekly holidays, unless your team works in shifts. Shift teams get two weekly holidays according to their roster. Where to find help Your manager is the first person to ask about day-to-day matters. The People team handles leave, pay and policy questions. The IT helpdesk, at helpdesk@northwind.example,",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 2,
+        "section": "Introduction",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-5",
+      "text": "The IT helpdesk, at helpdesk@northwind.example, handles laptops, accounts and access.",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 2,
+        "section": "Introduction",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-6",
+      "text": "Northwind Software - Employee Policy Handbook v4.1 Page 3 Leave Policy Every employee gets the following paid leave in each calendar year. Leave is added at the start of the year for existing employees and on a pro-rata basis for new joiners. Type of leave Days per year Carry forward Earned leave 18 up to 30 days Sick leave 10 not allowed Casual leave 6 not allowed Applying for leave Apply for earned and casual leave in the HR portal at least 7 days in advance. Your manager approves or rejects",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 3,
+        "section": "Leave Policy",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-7",
+      "text": "days in advance. Your manager approves or rejects the request within 2 working days. Sick leave Sick leave can be taken without approval in advance, but you must tell your manager before 10 am on the first day. For sick leave of more than 2 days in a row, a medical certificate is needed.",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 3,
+        "section": "Leave Policy",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-8",
+      "text": "Northwind Software - Employee Policy Handbook v4.1 Page 4 Maternity and paternity leave Women employees get 26 weeks of paid maternity leave for the first two children and 12 weeks for any further child, as required by law. Fathers get 10 working days of paid paternity leave, to be taken within 3 months of the birth. Leave encashment At the end of the year, earned leave above 30 days is paid out at the basic salary rate. When you leave the company, all unused earned leave is paid out. Public",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 4,
+        "section": "Leave Policy",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-9",
+      "text": "all unused earned leave is paid out. Public holidays The company follows a list of 12 public holidays every year, published by the People team in December. The list includes Republic Day, Independence Day, Gandhi Jayanti and festival holidays chosen for each office. Unpaid leave If you have used all your paid leave, you can ask for up to 30 days of unpaid leave in a year. Unpaid leave needs approval from your manager and the People team.",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 4,
+        "section": "Leave Policy",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-10",
+      "text": "Northwind Software - Employee Policy Handbook v4.1 Page 5 Attendance Employees record their attendance in the HR portal every working day, whether they work from the office or from home. Marking attendance Mark yourself present by 10:30 am. If you forget, you can correct your attendance within 3 working days, and your manager must approve the correction. Late arrival Core hours are 10 am to 4 pm. Arriving after 10:30 am three times in one month counts as half a day of casual leave. Absence",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 5,
+        "section": "Attendance",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-11",
+      "text": "counts as half a day of casual leave. Absence without leave If you are absent without applying for leave or telling your manager, the day is treated as unpaid leave. Absence without notice for 3 days in a row is a serious breach of policy. Attendance reports Managers receive a monthly attendance report for their team on the 2nd of every month and must check it within 5 working days.",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 5,
+        "section": "Attendance",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-12",
+      "text": "Northwind Software - Employee Policy Handbook v4.1 Page 6 Working Hours and Overtime The standard working time is 8 hours a day and 40 hours a week, including a lunch break of 45 minutes. Flexible hours You can start between 8 am and 11 am, as long as you are available during core hours from 10 am to 4 pm and complete 8 hours. Overtime Overtime must be approved by your manager before you work it. Employees in salary grades 1 to 3 are paid overtime at twice the hourly rate. Employees in higher",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 6,
+        "section": "Working Hours and Overtime",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-13",
+      "text": "at twice the hourly rate. Employees in higher grades get compensatory time off instead of overtime pay. Compensatory off If you work on a weekly holiday or a public holiday, you get one compensatory day off, to be taken within 60 days. Rest between shifts Shift employees must have at least 11 hours of rest between the end of one shift and the start of the next.",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 6,
+        "section": "Working Hours and Overtime",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-14",
+      "text": "Northwind Software - Employee Policy Handbook v4.1 Page 7 Remote Work Northwind follows a hybrid model. Employees work from the office on at least 3 days a week, and can work from home on the other days. Who can work remotely Remote work is available to employees who have completed probation. Some roles, such as reception and IT support, need to be in the office every day. Working from another city You can work from another city in India for up to 4 weeks a year, with your manager's approval.",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 7,
+        "section": "Remote Work",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-15",
+      "text": "to 4 weeks a year, with your manager's approval. Working from outside India is not allowed because of tax and data rules. Home setup The company pays a one-time home office allowance of Rs 15,000 for a chair, desk or screen, and Rs 1,000 per month for internet. Being available When working remotely, you must be reachable on the team chat and phone during core hours and join meetings with your camera on when asked.",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 7,
+        "section": "Remote Work",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-16",
+      "text": "Northwind Software - Employee Policy Handbook v4.1 Page 8 Code of Conduct Every employee must act honestly and professionally with colleagues, customers and partners. Respect at work Harassment, bullying and discrimination of any kind are not allowed. Complaints of sexual harassment are handled by the Internal Committee, as required by the POSH Act, 2013. Conflicts of interest Tell the People team about any outside job, business or family relationship that could affect your work. Outside work",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 8,
+        "section": "Code of Conduct",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-17",
+      "text": "that could affect your work. Outside work for a competitor is not allowed. Gifts You may accept gifts from customers or suppliers worth up to Rs 2,000. Gifts above this value must be reported to your manager and are usually returned. Reporting concerns Report any breach of this code to your manager, the People team or the confidential ethics line at ethics@northwind.example. People who report concerns in good faith are protected from retaliation.",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 8,
+        "section": "Code of Conduct",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-18",
+      "text": "Northwind Software - Employee Policy Handbook v4.1 Page 9 IT and Data Security Company laptops, accounts and data must be used safely and only for work. Passwords Passwords must be at least 14 characters long and must not be reused from other websites. Multi-factor authentication is required for email, the HR portal and the code repositories. Laptops Lock your laptop whenever you leave it. Do not install software that IT has not approved. Report a lost or stolen laptop to the IT helpdesk within",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 9,
+        "section": "IT and Data Security",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-19",
+      "text": "a lost or stolen laptop to the IT helpdesk within 2 hours. Customer data Customer data may only be stored in approved company systems. Never copy customer data to personal devices, personal email or USB drives. Security incidents If you think you clicked a phishing link or see unusual activity, contact the IT helpdesk at once. Reporting quickly is more important than being sure.",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 9,
+        "section": "IT and Data Security",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-20",
+      "text": "Northwind Software - Employee Policy Handbook v4.1 Page 10 Travel and Expenses Business travel must be approved by your manager before you book it. Booking travel Book flights and hotels through the company travel desk at least 10 days in advance when possible. Economy class is used for all flights within India. Expense Limit per day Hotel in a metro city Rs 6,000 Hotel in other cities Rs 4,000 Meals Rs 1,200 Claiming expenses Submit expense claims in the HR portal within 30 days of the trip,",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 10,
+        "section": "Travel and Expenses",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-21",
+      "text": "in the HR portal within 30 days of the trip, with the bills attached. Approved claims are paid with the next monthly salary. Local travel Cabs used for work are reimbursed at actual cost. Travel between home and the office is not a business expense.",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 10,
+        "section": "Travel and Expenses",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-22",
+      "text": "Northwind Software - Employee Policy Handbook v4.1 Page 11 Performance Reviews Performance is reviewed twice a year, in April and October. Goals At the start of each review period, you and your manager agree on 3 to 5 goals in the HR portal. Ratings Each review gives a rating from 1 to 5, where 3 means the employee fully meets expectations. The yearly salary increase is based on the April rating. Improvement plans An employee with a rating of 1 or 2 in two reviews in a row is given a performance",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 11,
+        "section": "Performance Reviews",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-23",
+      "text": "2 in two reviews in a row is given a performance improvement plan of 60 days, with clear goals and weekly check-ins. Promotions Promotions are decided once a year in April. To be considered, you must have been in your current role for at least 12 months.",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 11,
+        "section": "Performance Reviews",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-24",
+      "text": "Northwind Software - Employee Policy Handbook v4.1 Page 12 Exit Policy This chapter explains what happens when an employee leaves the company. Notice period After probation, the notice period is 60 days for employees in grades 1 to 3 and 90 days for higher grades. The notice period can be shortened if your manager agrees. Handover Before your last day, hand over your work and documents to the person named by your manager, and return your laptop, ID card and any other company property. Full and",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 12,
+        "section": "Exit Policy",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "policy.pdf-25",
+      "text": "ID card and any other company property. Full and final settlement The final settlement, including salary, leave encashment and any bonus due, is paid within 45 days of your last working day. Experience letter The People team sends the relieving letter and experience letter by email within 7 days after the settlement is paid.",
+      "metadata": {
+        "source": "policy.pdf",
+        "page": 12,
+        "section": "Exit Policy",
+        "created": "2026-11-26"
+      }
+    }
+  ],
+  "new.xlsx": [
+    {
+      "id": "new.xlsx-0",
+      "text": "Training: Employee ID is E001, Course is Data security, Hours is 4",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-1",
+      "text": "Training: Employee ID is E002, Course is Customer care, Hours is 8",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-2",
+      "text": "Training: Employee ID is E003, Course is Leadership, Hours is 2",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-3",
+      "text": "Training: Employee ID is E004, Course is Leadership, Hours is 2",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-4",
+      "text": "Training: Employee ID is E005, Course is Excel for HR, Hours is 6",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-5",
+      "text": "Training: Employee ID is E006, Course is Leadership, Hours is 4",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-6",
+      "text": "Training: Employee ID is E007, Course is Data security, Hours is 8",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-7",
+      "text": "Training: Employee ID is E008, Course is Leadership, Hours is 8",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-8",
+      "text": "Training: Employee ID is E009, Course is Excel for HR, Hours is 4",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-9",
+      "text": "Training: Employee ID is E010, Course is Data security, Hours is 4",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-10",
+      "text": "Training: Employee ID is E011, Course is Leadership, Hours is 8",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-11",
+      "text": "Training: Employee ID is E012, Course is Python basics, Hours is 2",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-12",
+      "text": "Training: Employee ID is E013, Course is Data security, Hours is 2",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-13",
+      "text": "Training: Employee ID is E014, Course is Customer care, Hours is 2",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-14",
+      "text": "Training: Employee ID is E015, Course is Customer care, Hours is 8",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-15",
+      "text": "Training: Employee ID is E016, Course is Leadership, Hours is 8",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-16",
+      "text": "Training: Employee ID is E017, Course is Excel for HR, Hours is 8",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-17",
+      "text": "Training: Employee ID is E018, Course is Leadership, Hours is 8",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-18",
+      "text": "Training: Employee ID is E019, Course is Data security, Hours is 6",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-19",
+      "text": "Training: Employee ID is E020, Course is Python basics, Hours is 2",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-20",
+      "text": "Training: Employee ID is E021, Course is Data security, Hours is 8",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-21",
+      "text": "Training: Employee ID is E022, Course is Data security, Hours is 6",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-22",
+      "text": "Training: Employee ID is E023, Course is Excel for HR, Hours is 6",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-23",
+      "text": "Training: Employee ID is E024, Course is Excel for HR, Hours is 8",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-24",
+      "text": "Training: Employee ID is E025, Course is Leadership, Hours is 6",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-25",
+      "text": "Training: Employee ID is E026, Course is Leadership, Hours is 8",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-26",
+      "text": "Training: Employee ID is E027, Course is Leadership, Hours is 4",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-27",
+      "text": "Training: Employee ID is E028, Course is Customer care, Hours is 2",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-28",
+      "text": "Training: Employee ID is E029, Course is Customer care, Hours is 4",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    },
+    {
+      "id": "new.xlsx-29",
+      "text": "Training: Employee ID is E030, Course is Customer care, Hours is 2",
+      "metadata": {
+        "source": "new.xlsx",
+        "page": null,
+        "section": "Training",
+        "created": "2026-11-26"
+      }
+    }
+  ]
+}
