@@ -183,6 +183,73 @@ new.xlsx new -> indexed (30 chunks)
 policy.pdf unchanged -> skipped
 ```
 
+## Task 6: Async processing with Celery
+
+Ingesting a big file takes time, so the API does not do it itself. It puts a job on a queue and
+answers at once, and a Celery worker does the work in the background.
+
+```
+Client --POST /ingest--> FastAPI --task--> Redis --> Celery worker --> Chroma
+       <-- 202 task_id --         <-- status / result --
+```
+
+| File | What it does |
+|---|---|
+| `celery_app.py` | The Celery app, with Redis as the broker and the result store |
+| `tasks.py` | `ingest_document(path)`: load (Task 4), chunk with metadata (Task 5), embed and store in Chroma |
+| `vector_store.py` | Saves the chunks in Chroma (`vector_store/`). Old chunks of the same file are replaced |
+| `api.py` | `POST /ingest` saves the upload, queues the task and returns `202 {"task_id": ...}`. `GET /ingest/{task_id}` returns `PENDING`, `SUCCESS` (with the result) or `FAILURE` (with the error) |
+| `demo_large_upload.py` | Uploads a 300-page PDF and keeps calling the API while the worker is busy |
+
+### Run it
+
+You need three terminals, all in the project folder with `.venv` active.
+
+1. Start Redis with Docker (once):
+
+   ```
+   docker run -d --name redis -p 6379:6379 redis:7
+   ```
+
+2. Start the worker. On Windows Celery needs `--pool=solo`:
+
+   ```
+   celery -A celery_app worker --pool=solo --loglevel=info
+   ```
+
+3. Start the API:
+
+   ```
+   uvicorn api:app --reload
+   ```
+
+4. In the third terminal, run the demo:
+
+   ```
+   python demo_large_upload.py
+   ```
+
+The first run downloads the embedding model (about 80 MB), so the first task takes longer.
+
+### What it shows
+
+```
+POST /ingest -> 202 {'task_id': 'd97ccf2a-...'} in 133 ms
+
+  0.0 s | GET /ingest -> PENDING  (4 ms) | GET /health -> ok (2 ms)
+  ...
+ 10.1 s | GET /ingest -> SUCCESS  (4 ms) | GET /health -> ok (2 ms)
+```
+
+While the worker spends seconds on 300 pages, the API keeps answering in a few milliseconds.
+
+Notes:
+
+- A broken file ends as `FAILURE` with a clear error, for example
+  `Failed to open file 'uploads/broken.pdf' as type pdf.`
+- Celery also answers `PENDING` for a task id it has never seen, so check the id if a task stays
+  `PENDING` for a long time.
+
 ## Setup
 
 ```
@@ -214,6 +281,9 @@ Then copy `.env.example` to `.env` and check the two paths in it.
 | 4 | `python run_loader.py` | Loads one file of each type and makes the results table |
 | 5 | `python ingest.py` | Indexes new and changed files, skips unchanged ones |
 | 5 | `python demo_change.py` | Changes `leave.docx` and adds `new.xlsx` for the demo |
+| 6 | `celery -A celery_app worker --pool=solo` | Starts the background worker (Redis must be running) |
+| 6 | `uvicorn api:app --reload` | Starts the API with `POST /ingest` and `GET /ingest/{task_id}` |
+| 6 | `python demo_large_upload.py` | Uploads a large PDF and shows the API stays responsive |
 
 ## Tests
 

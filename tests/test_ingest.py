@@ -19,7 +19,9 @@ def folder(tmp_path, monkeypatch):
     monkeypatch.setattr(ingest, "REGISTRY_FILE", tmp_path / "index_registry.json")
     monkeypatch.setattr(ingest, "CHUNK_STORE_FILE", tmp_path / "chunk_store.json")
     documents = tmp_path / "docs"
-    shutil.copytree("docs_to_ingest", documents)
+    documents.mkdir()
+    shutil.copy("docs_to_ingest/policy.pdf", documents)
+    shutil.copy("docs_to_ingest/leave.docx", documents)
     return documents
 
 

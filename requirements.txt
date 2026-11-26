@@ -7,4 +7,11 @@ openpyxl
 pandas
 beautifulsoup4
 requests
+chromadb
+celery
+redis
+fastapi
+uvicorn[standard]
+python-multipart
+httpx
 pytest

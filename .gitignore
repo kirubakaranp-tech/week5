@@ -6,3 +6,6 @@ venv/
 .pytest_cache/
 .idea/
 .vscode/
+uploads/
+vector_store/
+data/large_policy.pdf
