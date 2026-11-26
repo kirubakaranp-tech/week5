@@ -325,6 +325,62 @@ the results in `results/injection_test.md`:
 
 The orders table has the same number of rows before and after the test.
 
+## Task 8: Freshness and access control
+
+### Who can see what
+
+The documents are in `secure_docs/`. `access_rules.json` says who may read each file:
+
+```json
+{"hr_policy.pdf": "hr", "leave_policy.docx": "all", "benefits_page.html": "all"}
+```
+
+`secure_store.py` indexes the folder into the Chroma collection `secure_documents` and adds
+`allowed_roles` to the metadata of every chunk, next to source, page, section and created date.
+
+`secure_rag.py` searches with a filter on that field, so a chunk the user may not see is never
+retrieved and never reaches the model:
+
+| Role | Can read chunks with `allowed_roles` |
+|---|---|
+| employee | `all` |
+| hr | `hr`, `all` |
+
+The logged-in user is sent in the `X-User` header of `POST /ask` (in `api.py`). The user name
+decides the role: `arun` is an employee and `meena` is in HR. Unknown users get `401`.
+
+### Freshness
+
+`secure_registry.json` stores `last_synced_at` for every document. `freshness.py` re-syncs every
+document that was last synced more than 24 hours ago:
+
+- if the file changed (new hash), it is re-indexed
+- if it did not change, only `last_synced_at` is updated
+- if the file was deleted, its chunks and registry entry are removed
+
+Celery beat runs this every hour (`refresh_stale_documents` in `celery_app.py` and `tasks.py`).
+
+### Run it
+
+```
+python access_test.py
+python freshness.py --demo
+```
+
+`access_test.py` indexes `secure_docs/` and asks the same salary question as an employee and as HR.
+It saves the results in `results/access_test.md`. `freshness.py --demo` marks `leave_policy.docx`
+as synced 30 hours ago and runs the refresh.
+
+To run the hourly refresh, start Redis, then the worker and beat in two terminals:
+
+```
+celery -A celery_app worker --pool=solo --loglevel=info
+celery -A celery_app beat --loglevel=info
+```
+
+To try the API, start `uvicorn api:app --reload` and call `POST /ask` with the header `X-User: arun`
+or `X-User: meena`.
+
 ## Setup
 
 ```
@@ -363,6 +419,9 @@ Then copy `.env.example` to `.env` and check the two paths in it.
 | 7 | `python sql_setup.py` | Creates `company_db` and the read-only user |
 | 7 | `python llm_sql.py "question"` | The LLM picks a template and fills the parameters |
 | 7 | `python injection_test.py` | Tries SQL injection and shows nothing can run |
+| 8 | `python access_test.py` | Same salary question as employee and as HR |
+| 8 | `python freshness.py --demo` | Re-syncs documents last synced more than 24 hours ago |
+| 8 | `celery -A celery_app beat` | Runs the refresh every hour |
 
 ## Tests
 

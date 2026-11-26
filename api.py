@@ -2,10 +2,12 @@ import shutil
 from pathlib import Path
 
 from celery.result import AsyncResult
-from fastapi import FastAPI, HTTPException, UploadFile
+from fastapi import FastAPI, Header, HTTPException, UploadFile
+from pydantic import BaseModel, Field
 
 from celery_app import celery_app
 from loader import SUPPORTED_TYPES
+from secure_rag import USERS, answer_question
 from tasks import ingest_document
 
 UPLOAD_FOLDER = Path("uploads")
@@ -42,3 +44,16 @@ def ingest_status(task_id: str):
     elif result.status == "FAILURE":
         response["error"] = str(result.result)
     return response
+
+
+class Question(BaseModel):
+    question: str = Field(min_length=1)
+
+
+@app.post("/ask")
+def ask(body: Question, x_user: str = Header()):
+    if x_user not in USERS:
+        raise HTTPException(status_code=401, detail="Unknown user. Send your user name in the X-User header.")
+    role = USERS[x_user]
+    answer, _ = answer_question(body.question, role)
+    return {"user": x_user, "role": role, "answer": answer}

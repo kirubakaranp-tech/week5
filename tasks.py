@@ -3,6 +3,7 @@ from datetime import datetime
 from pathlib import Path
 
 from celery_app import celery_app
+from freshness import refresh_stale_documents
 from ingest import make_chunks
 from vector_store import store_chunks
 
@@ -23,3 +24,8 @@ def ingest_document(path):
         "chunks_in_store": total_in_store,
         "seconds": round(time.perf_counter() - start, 1),
     }
+
+
+@celery_app.task(name="refresh_stale_documents")
+def refresh_stale():
+    return refresh_stale_documents()
