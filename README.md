@@ -90,6 +90,47 @@ The input is `data/hr_data.xlsx` with two sheets, Employees and Leaves.
 | Empty cell in Excel | The value is NaN, and whole numbers turn into floats like `30000.0` | NaN becomes `None`, `30000.0` becomes `30000`, and the sentence says so, for example `has no salary recorded` |
 | Empty or repeated header | Two columns would get the same key | They get names like `Column 2` or `Name 3` |
 
+## Task 4: HTML parsing and a unified loader
+
+### Web pages: `parse_html.py`
+
+1. `fetch_page(url)` downloads a page with `requests`.
+2. `clean_html(html)` parses it with BeautifulSoup and removes the parts that are not content:
+   `nav`, `header`, `footer`, `script`, `style`, `noscript`, `aside`, `form` and `iframe`.
+3. The text is taken with `get_text(separator="\n", strip=True)` and saved in `output/web_page.txt`.
+
+```
+python parse_html.py https://example.com
+python parse_html.py
+```
+
+Without a URL it uses `data/benefits_page.html`, a saved page with a menu, tracking scripts, a
+cookie banner and a footer.
+
+### One loader for every file type: `loader.py`
+
+`load_document(path)` looks at the file extension and returns a list of items:
+
+```python
+{"text": "...", "source": "hr_policy.docx", "page_or_section": "Leave Rules"}
+```
+
+| Type | How it is read | One item per |
+|---|---|---|
+| `.pdf` | PyMuPDF, with OCR for scanned pages (Task 2) | page (`page_or_section` is the page number) |
+| `.docx` | python-docx | heading section, plus one item per table |
+| `.xlsx` | pandas, merged cells filled (Task 3) | row, as a sentence (`Employees row 2`) |
+| `.html` | BeautifulSoup without nav, scripts and footer | heading section |
+
+Any other type raises a clear error, and so does a missing file:
+
+```
+ValueError: Unsupported file type '.txt' for notes.txt. Supported types: pdf, docx, xlsx, html
+```
+
+`python run_loader.py` loads one file of each type and saves the table
+`File type | Items extracted | Time` in `results/loader_results.md`.
+
 ## Setup
 
 ```
@@ -117,6 +158,8 @@ Then copy `.env.example` to `.env` and check the two paths in it.
 | Bonus | `python ocr_pdf.py data/tamil_english.pdf eng+tam` | OCR of a Tamil and English page |
 | 3 | `python parse_docx.py` | Paragraphs with styles and tables as dictionaries |
 | 3 | `python parse_excel.py` | Sheet names, shapes and one sentence per row |
+| 4 | `python parse_html.py <url>` | Downloads a web page and removes nav, scripts and footer |
+| 4 | `python run_loader.py` | Loads one file of each type and makes the results table |
 
 ## Tests
 
